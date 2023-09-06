@@ -74,6 +74,7 @@ public class MemberApiController {
         private String name;
     }
     @Data
+    @AllArgsConstructor
     static class CreateMemberResponse {
         private Long id;
 
